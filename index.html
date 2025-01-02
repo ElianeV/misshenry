@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="EVDC" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="This is my job application for Mr. Henry"
+    />
+    <title>Miss Henry 2025</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="#contestant-8">contestant #8</a></li>
+          <li><a href="#vote-now">vote now!</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="above-fold">
+        <div id="hero">
+          <h1><span>Miss Henry</span><span>2025</span></h1>
+          <img src="topHead.svg" alt="" id="hero-img" />
+        </div>
+        <div
+          id="CTA"
+          style="display: flex; align-items: end; justify-content: center"
+        >
+          <img src="arrow.svg" alt="" />
+          <p id="CTA-text">discover this year's contestants</p>
+          <img src="arrow.svg" alt="" />
+        </div>
+      </section>
+
+      <section id="contestant-8">
+        <div id="list-questions">
+          <h2>Contestant #8</h2>
+          <ul>
+            <li>
+              <button
+                id="about-btn"
+                aria-controls="contestant-info"
+                aria-label="Read about contestant 8"
+                class="question-btn oneline-btn"
+              >
+                About
+                <img src="arrow.svg" alt="" class="arrow-right" />
+              </button>
+            </li>
+            <li>
+              <button
+                id="why-me-btn"
+                aria-controls="contestant-info"
+                aria-label="Read why judges should choose contestant 8."
+                class="question-btn oneline-btn"
+              >
+                Why me?<img src="arrow.svg" alt="" class="arrow-right" />
+              </button>
+            </li>
+            <li>
+              <button
+                id="achievement-btn"
+                aria-controls="contestant-info"
+                aria-label="Read about contestant 8's biggest achievement."
+                class="question-btn"
+              >
+                Biggest <span style="display: block"></span>achievement<img
+                  src="arrow.svg"
+                  alt=""
+                  class="arrow-right"
+                  style="margin-left: 20px"
+                />
+              </button>
+            </li>
+            <li>
+              <button
+                id="if-i-win-btn"
+                aria-controls="contestant-info"
+                aria-label="Read about what contestant 8 would do if they win the competition."
+                class="question-btn oneline-btn"
+              >
+                If I would win...
+                <img src="arrow.svg" alt="" class="arrow-right" />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <article
+          id="contestant-info"
+          aria-live="polite"
+          role="region"
+          aria-label="Contestant information"
+        ></article>
+      </section>
+
+      <section id="vote-now">
+        <p style="font-size: 1.5rem">
+          <span style="display: block">
+            <img
+              src="arrow-white.svg"
+              alt=""
+              style="transform: rotate(-40deg); margin-bottom: 10px"
+            />
+            <img
+              src="arrow-white.svg"
+              alt=""
+              style="margin: 0 20px 30px 20px"
+            />
+            <img src="arrow-white.svg" alt="" style="margin: 0 0 50px 0" />
+            <img
+              src="arrow-white.svg"
+              alt=""
+              style="transform: rotate(20deg); margin-bottom: 5px"
+            />
+            <img
+              src="arrow-white.svg"
+              alt=""
+              style="transform: rotate(50deg); margin: 0 0 10px 20px"
+            />
+          </span>
+          <a
+            style="display: inline-block; font-size: 2rem; margin-bottom: 20px"
+            href="mailto:eliane.vdc@protonmail.com"
+            title="Send an email to eliane.vdc@protonmail.com"
+            aria-label="Email eliane.vdc@protonmail.com"
+            ?subject="Miss Henry 2025: Judges verdict"
+          >
+            VOTE HERE
+          </a>
+          <span style="display: block">for your favourite contestant</span>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Still unsure? Check out
+        <a
+          href="CV_ElianeVdC.pdf"
+          target="_blank"
+          aria-label="Eliane's CV. Opens in a new tab"
+          >Eliane's CV</a
+        >
+        and
+        <a
+          href="http://linkedin.com"
+          target="_blank"
+          aria-label="Eliane's LinkedIn Profile. Opens in a new tab"
+          >LinkedIn profile</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
